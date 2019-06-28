@@ -1,0 +1,16 @@
+{
+  "message": "Hello DrupalJam!",
+  "name": "Dimiter Geelen",
+  "handle": "@mrdidel",
+  "path": "../src/main/images/avatar.jpeg",
+  "actions": [
+    {
+      "icon": "user",
+      "label": "Reply"
+    },
+    {
+      "icon": "user",
+      "label": "Retweet"
+    }
+  ]
+}

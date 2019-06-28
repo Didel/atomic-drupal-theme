@@ -1,0 +1,40 @@
+/*
+  Button
+
+  This is an example of a regular button.
+
+  :hover - The button when hovered.
+  .button--outline - The button with outline style.
+  .button--outline:hover - The button with outline style when hovered.
+
+  Markup: button.twig
+
+  Style guide: Atoms - Button
+ */
+.button {
+  background: $color--blue;
+  color: white;
+  border-radius: 1em;
+  border: none;
+  padding: .5em 1em;
+  font-family: inherit;
+  font-size: 1em;
+  font-weight: bold;
+  appearance: none;
+
+  &:hover {
+    background: $color--darker-blue;
+    cursor: pointer;
+  }
+
+  &--outline {
+    background: white;
+    color: $color--blue;
+    border: 2px solid currentColor;
+
+    &:hover {
+      color: $color--darker-blue;
+      background: white;
+    }
+  }
+}

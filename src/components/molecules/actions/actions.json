@@ -1,0 +1,16 @@
+{
+  "actions": [
+    {
+      "icon": "user",
+      "label": "Reply"
+    },
+    {
+      "icon": "user",
+      "label": "Retweet"
+    },
+    {
+      "icon": "user",
+      "label": "Report"
+    }
+  ]
+}

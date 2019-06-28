@@ -1,0 +1,9 @@
+<div class="{{ element_class }} actions {{ modifier_class }}">
+  {% for action in actions %}
+    {% include '@atoms/action/action.twig' with {
+      element_class: 'actions__action',
+      label: action.label,
+      icon: action.icon,
+    } %}
+  {% endfor %}
+</div>

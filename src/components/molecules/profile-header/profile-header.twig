@@ -1,0 +1,10 @@
+<div class="{{ element_class }} profile-header {{ modifier_class }}">
+  {% include "@atoms/avatar/avatar.twig" with {
+    element_class: 'profile-header__avatar',
+  } %}
+
+  <div class="profile-header__info">
+    <div class="profile-header__name">{{ name }}</div>
+    <div class="profile-header__handle">{{ handle }}</div>
+  </div>
+</div>

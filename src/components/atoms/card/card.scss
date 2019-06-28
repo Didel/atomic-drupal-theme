@@ -1,0 +1,23 @@
+/*
+  Card
+
+  A basic card to show content in.
+
+  .card--squared - A squared version of the card.
+
+  Style guide: Atoms - Card
+
+  Markup: card.twig
+ */
+.card {
+  background: white;
+  border-radius: 1em;
+  padding: 1em;
+  min-width: 100px;
+  min-height: 50px;
+  box-shadow: 5px 5px 10px gray;
+
+  &--squared {
+    border-radius: 1px;
+  }
+}

@@ -1,0 +1,31 @@
+/*
+  Action
+
+  An action a user can perform.
+
+  :hover - The action when hovered.
+
+  Markup: action.twig
+
+  Style guide: Atoms - Action
+ */
+.action {
+  color: inherit;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  &__icon {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+
+    svg {
+      fill: currentColor;
+      width: 100%;
+      height: auto;
+    }
+  }
+}

@@ -1,0 +1,30 @@
+/*
+  Profile header
+
+  A header for a profile.
+
+  .profile-header--inactive - The header for inactive users.
+
+  Markup: profile-header.twig
+
+  Style guide: Molecules - Profile header
+ */
+.profile-header {
+  display: flex;
+
+  &--inactive {
+    opacity: .5;
+  }
+
+  &__avatar {
+    margin-right: .5em;
+  }
+
+  &__name {
+    font-weight: bold;
+  }
+
+  &__handle {
+    font-style: italic;
+  }
+}

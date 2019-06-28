@@ -1,0 +1,22 @@
+/*
+  Actions
+
+  The actions a user can perform with a tweet.
+
+  Markup: actions.twig
+
+  Style guide: Molecules - Actions
+ */
+.actions {
+  color: $color--blue;
+
+  &__action {
+    &:hover {
+      color: $color--darker-blue;
+    }
+
+    & + & {
+      margin-left: 1em;
+    }
+  }
+}

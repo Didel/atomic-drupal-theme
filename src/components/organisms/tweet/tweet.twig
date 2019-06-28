@@ -1,0 +1,16 @@
+{% extends "@atoms/card/card.twig" %}
+{% set element_class = 'tweet' %}
+
+{% block content %}
+  {% include "@molecules/profile-header/profile-header.twig" with {
+    element_class: 'tweet__profile',
+  } %}
+
+  <div class="tweet__message">
+    {{ message }}
+  </div>
+
+  {% include "@molecules/actions/actions.twig" with {
+    element_class: 'tweet__actions',
+  } %}
+{% endblock %}
