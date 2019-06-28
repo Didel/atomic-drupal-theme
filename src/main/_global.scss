@@ -1,0 +1,9 @@
+$color--blue: #1DA1F2;
+$color--darker-blue: darken($color--blue, 20%);
+
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans&display=swap');
+
+body {
+  font-size: 18px;
+  font-family: 'Fira Sans', sans-serif;
+}

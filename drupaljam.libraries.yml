@@ -1,0 +1,4 @@
+global:
+  css:
+    theme:
+      dist/main/stylesheets/style.css: {}

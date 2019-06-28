@@ -1,0 +1,20 @@
+name: DrupalJam Demo Theme
+type: theme
+description: 'The theme that will showcase the components in my presentation.'
+core: 8.x
+libraries:
+  - drupaljam/global
+
+component-libraries:
+  main:
+    paths:
+      - src/main
+  atoms:
+    paths:
+      - src/components/atoms
+  molecules:
+    paths:
+      - src/components/molecules
+  organisms:
+    paths:
+      - src/components/organisms
